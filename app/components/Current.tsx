@@ -43,7 +43,7 @@ const Current = ({ data }: CurrentProps) => {
         {data.current ? <span className="text-white">{data.current.condition.text}</span> : null}
        
       </div>
-      <button className="bg-red-500 text-white ">change</button>
+      <button className="bg-transparent border-2 rounded p-2 text-white ">Change to farenheit</button>
       <div>
         {data.location ? (
           <div className="flex items-center text-black bg-white/90 px-2 py-2 rounded-xl">
